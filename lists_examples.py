@@ -9,7 +9,8 @@ Complete the function first_last6 below, and check to make sure it will pass the
 first_last6([1, 2, 6]) → True
 first_last6([6, 1, 2, 3]) → True
 first_last6([13, 6, 1, 2, 3]) → False
-
+first_last6([3,6]) → True
+first_last6([6]) → True
 '''
 
 def first_last6(nums):
@@ -20,10 +21,14 @@ def first_last6(nums):
 common_end([1, 2, 3], [7, 3]) → True
 common_end([1, 2, 3], [7, 3, 2]) → False
 common_end([1, 2, 3], [1, 3]) → True
+common_end([1, 2], [2]) → True
 
 '''
 
 def common_end(a, b):
+	#your code here
+
+
 
 
 
